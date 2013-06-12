@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Tianyang Che!
+tagline: Helios
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Read [My weibo](http://www.weibo.com/yangkklt)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
@@ -13,13 +13,13 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 In `_config.yml` remember to specify your own data:
     
-    title : My Blog =)
+    title : Tianyang Che's blog
     
     author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      name : Tianyang Che
+      email : tianyangche@gmail.com
+      github : tianyangche
+      twitter : forgotten...
 
 The theme should reference these variables whenever needed.
     
