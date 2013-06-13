@@ -5,7 +5,6 @@ tagline: You and I will be safe and sound...
 ---
 {% include JB/setup %}
 
-Read [My weibo](http://www.weibo.com/yangkklt)
 
 ## about me
 Tianyang Che | China | Computer Science
@@ -24,6 +23,5 @@ Soccer | Real Madrid | PES | Pool ball | Naruto |Pop music | Daydreaming
   {% endfor %}
 </ul>
 
-## To-Do
 
 
