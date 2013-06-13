@@ -1,13 +1,10 @@
 ---
 layout: post
-tagline: "Supporting tagline"
-title: 第一次
-tags : [intro, beginner, jekyll, tutorial]
+tagline: "History is his story"
+title: 你喜不喜欢，有故事的人
+tags : [life]
 ---
 {% include JB/setup %}
-
-This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
-Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
 ## Overview 
 
