@@ -94,7 +94,7 @@
               {% endif %}                    
               {% if site.author.feedburner %}
                 <li>
-                  <a href="http://xiaoxiongmao.me/rss" class="zocial rss icon" target="_blank">
+                  <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" class="zocial rss icon" target="_blank">
                     <span class="hidden-desktop">FeedBurner</span>
                   </a>
                 </li>
@@ -111,10 +111,9 @@
       </div>
 
       <footer>
-        <p>&copy; 2010 ~ 2013 {{ site.author.name }}
-          | powered by <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          | themed by <a href="http://github.com/dhulihan/hooligan" target="_blank">Hooligan</a>
-          | fork <a href="https://github.com/pandachow/pandachow.github.com" target="_blank">me</a>
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
         </p>
       </footer>
     </div> <!-- /container -->
