@@ -10,10 +10,6 @@ Read [My weibo](http://www.weibo.com/yangkklt)
 ## Update Author Attributes
 
     
-## Here are my five recent posts: 
-{% for post in site.posts limit:5 %}
-<li><span class="post_date">{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
 
 
 
