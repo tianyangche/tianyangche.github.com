@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tianyang Che!
-tagline: Helios
+title: Helios' World
+tagline: You and I will be safe and sound...
 ---
 {% include JB/setup %}
 
