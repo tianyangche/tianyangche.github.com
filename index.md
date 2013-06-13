@@ -10,7 +10,7 @@ tagline: You and I will be safe and sound...
 Tianyang Che | China | Computer Science
 
 ## insterested in
-Soccer | Real Madrid | PES | Pool ball | Naruto |Pop music | Daydreaming
+Soccer | Real Madrid | Cristiano Ronaldo & Kaka | PES | Pool ball | Naruto | Pop music | Puppy
 
 ## follow me at
 [新浪微博](https://www.weibo.com/yangkklt) | [人人网](https://www.renren.com/249216848) | [Facebook](https://www.facebook.com/yangkklt) | [Github](https://github.com/tianyangche)
