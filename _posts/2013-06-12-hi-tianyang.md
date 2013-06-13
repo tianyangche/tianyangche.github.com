@@ -1,6 +1,7 @@
 ---
 layout: post
 tagline: "Supporting tagline"
+title: 第一次
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
