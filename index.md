@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Helios' World
+title: Inner heart of Helios
 tagline: You and I will be safe and sound...
 ---
 {% include JB/setup %}
 
 
 ## about me
-Tianyang Che | China | Computer Science
+Tianyang Che | Chinese | Computer Science | Scorpius
 
 ## insterested in
 Soccer | Real Madrid | Cristiano Ronaldo & Kaka | PES | Pool ball | Naruto | Pop music | Puppy
