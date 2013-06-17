@@ -48,11 +48,11 @@ tags : [life]
 
    P:  What is the address? I cannot remember that!
 
-   Me: ...(what a terrible memory!) Could you please me one piece of paper? I can write it down.
+   Me: ...(what a terrible memory!) Could you please give  me one piece of paper? I can write it down.
 
    小黑逼智商很低，我手机里装了dropbox，可以把我手机里的照片同步到我的电脑和pad上。黑逼自拍了。于是我就拿到了犯罪分子的正面相片，高清无码免冠，要几寸都可以。这小黑逼还在抽烟。也不知道从哪搞来的。这是铁证吧？嗯，是的，附近高中一找就能找到。事实是这样的。
 
-   Me: Do you wanna see that guy's photos? I've got there photos...
+   Me: Do you wanna see that guy's photos? I've got their photos...
 
    P: Not really. How did you get it?
 
@@ -60,7 +60,7 @@ tags : [life]
 
    P: what?
 
-   Me: software... Soft ware. It can synchronize all the photos in my photo with my laptop and ipad.
+   Me: software... Soft ware. It can synchronize all the photos in my phone to my laptop and ipad.
 
    P: scornful laugh......
 
