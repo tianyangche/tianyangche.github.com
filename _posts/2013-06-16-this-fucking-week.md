@@ -28,42 +28,43 @@ tags : [life]
 ###坏消息
 
 1. 被仨小黑逼把手机骗走了。好吧，我都丢脸死了。事情的经过是这样的：端午那天晚上五点多，本来想要和阿波晚上去游泳，结果龙哥说再过一小时百分之百下雨，要我们早点走。之前也约了老罗，给他打电话告诉他不要来了。这时候是5点39分，在31街的baseball field附近。有仨小黑逼骑着车和我说，天要下雨，要给老妈打电话，让老妈接他们，结果我就借了。结果。。这帮小孩打完电话就想要跑，我一看不对，就拦住他们。人是跑不过车的嘛。然后，这帮小孩就跑掉了。嗯，我是傻逼。善良的我总是他妈遇到这种人，我他妈也服了。当时不敢动手，是因为：1， 对方是几个高中生，对未成年动手容易产生法律问题； 2， 最主要的是打不过人家。黑人的单兵作战能力要远远强于我们，他们人还比我们多一个。
-其实这件事的直接后果就是，我得了“见了老黑心跳加速一倍病”。昨天和队长打电话的时候起的名字=。=
+
+   其实这件事的直接后果就是，我得了“见了老黑心跳加速一倍病”。昨天和队长打电话的时候起的名字=。=
 
 
 
 
 2. 去警察局。妈的，我怎么也想不到像我这种遵纪守法的好公民，怎么会进警察局。以前看过美国和中国警察对比的图片，就觉得美国的警察要好很多。又一次证明我太年轻了。他们就是一坨翔。我本来很紧张，紧张的当天上午什么也没做成。中午曦哥带我和阿波去，由于孙老师要回来，我就让曦哥先回了。进警察局之前，我们还学着<中国合伙人>里面的成东青一样，说了句：“我们去攻陷美国”。进去了，简单和他们说了，然后这帮傻逼问我地址。
 
-Police (简称P): what is the address?
+   Police (简称P): what is the address?
 
-Me: at the cross of 31st street and Michigan Avenue.
+   Me: at the cross of 31st street and Michigan Avenue.
 
-P:  What is the address? I cannot remember that!
+   P:  What is the address? I cannot remember that!
 
-Me: ...(what a terrible memory!) Could you please me one piece of paper? I can write it down.
+   Me: ...(what a terrible memory!) Could you please me one piece of paper? I can write it down.
 
-小黑逼智商很低，我手机里装了dropbox，可以把我手机里的照片同步到我的电脑和pad上。黑逼自拍了。于是我就拿到了犯罪分子的正面相片，高清无码免冠，要几寸都可以。这小黑逼还在抽烟。也不知道从哪搞来的。这是铁证吧？嗯，是的，附近高中一找就能找到。事实是这样的。
+   小黑逼智商很低，我手机里装了dropbox，可以把我手机里的照片同步到我的电脑和pad上。黑逼自拍了。于是我就拿到了犯罪分子的正面相片，高清无码免冠，要几寸都可以。这小黑逼还在抽烟。也不知道从哪搞来的。这是铁证吧？嗯，是的，附近高中一找就能找到。事实是这样的。
 
-Me: Do you wanna see that guy's photos? I've got there photos...
+   Me: Do you wanna see that guy's photos? I've got there photos...
 
-P: Not really. How did you get it?
+   P: Not really. How did you get it?
 
-Me: There is a software named dropbox...(interrupted)
+   Me: There is a software named dropbox...(interrupted)
 
-P: what?
+   P: what?
 
-Me: software... Soft ware. It can synchronize all the photos in my photo with my laptop and ipad.
+   Me: software... Soft ware. It can synchronize all the photos in my photo with my laptop and ipad.
 
-P: scornful laugh......
+   P: scornful laugh......
 
-好吧，警察也是傻逼，之后问了我对方身高，体重，年龄，衣服裤子鞋的颜色。我在短短一分钟之内怎么能看清楚这么多。记下了阿波的电话，写了张单子，就让我们走了。当然没有电话打过来。我很生气，去中国城把我的手机锁了。
+   好吧，警察也是傻逼，之后问了我对方身高，体重，年龄，衣服裤子鞋的颜色。我在短短一分钟之内怎么能看清楚这么多。记下了阿波的电话，写了张单子，就让我们走了。当然没有电话打过来。我很生气，去中国城把我的手机锁了。
 
-在办理我们的案件过程中，这孙子接了5个电话，每次接电话就把电话放在一边，等对方bla bla说完，说句all right之类的话敷衍，挂了电话必定会骂句fuck。不过也情有可原，貌似电话里都是什么锁坏了之类的事情。
+   在办理我们的案件过程中，这孙子接了5个电话，每次接电话就把电话放在一边，等对方bla bla说完，说句all right之类的话敷衍，挂了电话必定会骂句fuck。不过也情有可原，貌似电话里都是什么锁坏了之类的事情。
 
-练了一个小时口语、听力及实地考察、调研美国的警察局后，我们就走掉了。
+   练了一个小时口语、听力及实地考察、调研美国的警察局后，我们就走掉了。
 
-没想过能要回来，实验室师兄比我的严重的多，都没行。我室友那次说对方有枪，警方都不重视。
+   没想过能要回来，实验室师兄比我的严重的多，都没行。我室友那次说对方有枪，警方都不重视。
 
 
 
@@ -80,5 +81,5 @@ P: scornful laugh......
 
 
 
-这周收获还是很大的。以后一个月经历个一两周这样的日子是挺好的。多了我心脏受不了。
+   这周收获还是很大的。以后一个月经历个一两周这样的日子是挺好的。多了我心脏受不了。
 
