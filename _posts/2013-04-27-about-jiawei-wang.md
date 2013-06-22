@@ -6,7 +6,6 @@ tags : [life]
 ---
 {% include JB/setup %}
 
-![image](/assets/files/pic/2013/body.jpg)
 看王家卫的一代宗师，四句话最有感触：
 
 1、有多大屁股，穿多大裤衩
