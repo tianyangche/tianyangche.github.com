@@ -2,7 +2,7 @@
 layout: post
 category: study
 title: "R for beginners"
-tags : [study][R]
+tags : [study]
 ---
 {% include JB/setup %}
 
