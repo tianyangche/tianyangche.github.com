@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inner heart of Helios
+title: Helios
 tagline: You and I will be safe and sound...
 ---
 {% include JB/setup %}
