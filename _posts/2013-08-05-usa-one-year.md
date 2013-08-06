@@ -24,7 +24,7 @@ tags : [life]
 ---
 
 
-23年的人生故事，就是这样。普通的不能再普通。见识不多的人，认为天下就那么大。为什么这么说？来，点击[这里](https://www.mcs.anl.gov/~balaji/cv/pavan_balaji_cv.pdf)。
+23年的人生故事，就是这样。普通的不能再普通。见识不多的人，认为天下就那么大。为什么这么说？来，点击[craiglist](https://chicago.craigslist.org)。
 
 
 
