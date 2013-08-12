@@ -10,10 +10,10 @@ tagline: You and I will be safe and sound...
 Tianyang Che | Chinese | Computer Science | Scorpius
 
 ## insterested in
-Soccer | Real Madrid | Cristiano Ronaldo & Kaka | PES | Pool ball | Naruto | Pop music | Puppy
+Soccer | Real Madrid | Cristiano Ronaldo & Kaka | PES | Pool ball | Naruto | Pop music | Puppy | Design | Country Music
 
 ## follow me at
-[新浪微博](https://www.weibo.com/yangkklt) | [人人网](https://www.renren.com/249216848) | [Facebook](https://www.facebook.com/yangkklt) | [Github](https://github.com/tianyangche)
+[新浪微博](https://www.weibo.com/yangkklt) | [人人网](https://www.renren.com/249216848) | [Facebook](https://www.facebook.com/yangkklt) | [Github](https://github.com/tianyangche) | [豆瓣](https://www.douban.com/people/43205115/) 
 
 ## articles
 <ul class="posts">
