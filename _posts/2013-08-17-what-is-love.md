@@ -2,14 +2,13 @@
 layout: post
 category: life
 title: 美好的
-tagline: 
 tags : [life]
 ---
 {% include JB/setup %}
 
 
 
-
+![image](/assets/files/pic/2013/201308171)
 
 
 
