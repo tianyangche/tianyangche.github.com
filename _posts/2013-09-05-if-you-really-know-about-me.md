@@ -1,12 +1,14 @@
 ---
 layout: post
 category: life
-title: 9月5日
+title: Sep 5th.
 tagline: 
 tags : [life]
 ---
 {% include JB/setup %}
 
-只是想说，这个日子，对我很重要，改变了我的一生。
+I just want to say that this day is extremely essential to me. It changed my whole life in a way.
 
-那年，星期二，晴天，下午，体育课，篮球场边……
+That day was Tuesday, sunny in my memory. On a physical education class, everything happened near the basketball court.
+
+This date is kinda a landmark in my life. 
