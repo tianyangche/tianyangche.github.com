@@ -7,13 +7,13 @@ tagline: You and I will be safe and sound...
 
 
 ## about me
-Tianyang Che | Chinese | Computer Science | Scorpius
+Tianyang Che | Terry | Helios | Chinese | Computer Science | Scorpius
 
 ## insterested in
-Soccer | Real Madrid | Cristiano Ronaldo & Kaka | PES | Pool ball | Naruto | Pop music | Puppy | Design | i-Devices
+Soccer | Real Madrid | Cristiano Ronaldo | PES | Billiards | Naruto | Pop Rap R&B Rock | Puppy | Design | i-Devices
 
 ## follow me at
-[新浪微博](https://www.weibo.com/yangkklt) | [人人网](https://www.renren.com/249216848) | [豆瓣](https://www.douban.com/people/43205115/) | [Facebook](https://www.facebook.com/yangkklt) | [Github](https://github.com/tianyangche)
+[新浪微博](https://www.weibo.com/yangkklt) | [人人网](https://www.renren.com/249216848) | [豆瓣](https://www.douban.com/people/43205115/) | [Facebook](https://www.facebook.com/yangkklt) | [Github](https://github.com/tianyangche) | [Flickr](https://www.flickr.com/photos/tianyangche) | [twitter](https://twitter.com/tianyangche)
 
 ## articles
 <ul class="posts">
