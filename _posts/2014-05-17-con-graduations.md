@@ -1,11 +1,16 @@
 ---
 layout: post
 category: life
+<<<<<<< Updated upstream
 title: 中青春期的诗
+=======
+title: 面具
+>>>>>>> Stashed changes
 tagline: 
 tags : [life]
 
 ---
+<<<<<<< Updated upstream
 2014年5月17日，正式毕业了，学生生涯正式结束了。对于我个人来说，是一个值得铭记的日子。
 当然，更值得纪念的是，阿森纳时隔9年夺冠，马竞时隔18年重夺西甲冠军。
 
@@ -28,6 +33,9 @@ tags : [life]
 May 17 2014, Sat
 
 Chicago
+=======
+临近毕业，小车老师罹患怪病：面神经炎。这个病因其实并不明朗，小车老师在得病的前一天并没有什么异常，除了吃了一盒黑莓和看了一下郭德纲。小车老师天生霉运，得这个病是在最不适当的时候。
+>>>>>>> Stashed changes
 
 ---
 
