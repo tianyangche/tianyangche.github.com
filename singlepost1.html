@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Parallel Computing Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+  
+
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+<div class="container-fluid">
+  <div class="row" style="border-bottom: 1px solid #f15556"> 
+      <div class="col-md-12 col-sm-12" style="background-color: #f9f9f9; ">         
+          <a href="index.html">     
+          <h1 class="logo" style="color: #e35354;">
+                  Shufan
+                  <span style="color: #9fb038;">Ge</span>            
+          </h1> 
+          </a>   
+      <ul class="navbar" type="none">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#templatemo_events">Projects</a></li>
+          <li><a href="index.html#templatemo_timeline">Timeline</a></li>
+          <li><a href="index.html#templatemo_contact">Contact</a></li>
+      </ul>
+      </div>
+  </div> 
+      
+  <div class="row">
+      <img src="images/shufan_parallel_project.jpg" style="height:100%; width:100%;" />
+      
+  </div>    
+    
+  <div class="container-fluid" style="padding:30px">
+      <div class="row"> 
+          <div class="col-md-8" style="background-color: white;">
+              <div  class="mainpic">
+                  <img  src="images/conjugate_gradient_2.png"/>
+              <!--
+              <img  src="images/shufan-resume-template.jpg"/>    
+              <img src="images/shufan-webdesign-template-1.jpg" />
+              -->
+              </div>
+              
+              <div class="title">
+                  <h1>Solving 3D Poisson Equation with Parallel Computing</h1>
+                  <p>Posted: Dec, 2013. |<span style="color: #f39c12">By: Shufan GE</span></p>
+                  
+              </div>
+              
+              <div class="paragraph">
+                  <p>The Poisson Equation  , with the Laplace operator discretized into real, symmetric, positive definite matrix (as in 3 dimensional case, a 7-diagonal matrix with the value of diagonal elements all -6). The linear algebra equation to be solved is 
+ 
+The potential is set to zero at the boundary (both 6 sides of the box). The Excel file shows an 8*8*8 sized box with a point charge put in nearly the center of the box. And it is parallelized over z direction of the box, where each node will hold lattice of grid points (at least two lattice at each node). This simple case is used to check the accuracy of the 3D CG parallel code with the serial computing one. 2 nodes and 4 nodes parallel computing is used to compare with the serial code. The result is shown in the attached Excel file. In this case, 38 iteration steps are needed for the solution to converge. 
+                  </p>
+                  <p>
+                  In mathematics, the conjugate gradient method is an algorithm for the numerical solution of particular systems of linear equations, namely those whose matrix is symmetric and positive-definite. The conjugate gradient method is often implemented as an iterative algorithm, applicable to sparse systems that are too large to be handled by a direct implementation or other direct methods such as the Cholesky decomposition. Large sparse systems often arise when numerically solving partial differential equations or optimization problems.
+The conjugate gradient method can also be used to solve unconstrained optimization problems such as energy minimization. It was developed by Magnus Hestenes and Eduard Stiefel.[1]
+The biconjugate gradient method provides a generalization to non-symmetric matrices. Various nonlinear conjugate gradient methods seek minima of nonlinear equations.
+                    </p>
+                    <p>
+                        Parallel computing is a form of computation in which many calculations are carried out simultaneously,[1] operating on the principle that large problems can often be divided into smaller ones, which are then solved concurrently ("in parallel"). There are several different forms of parallel computing: bit-level, instruction level, data, and task parallelism. Parallelism has been employed for many years, mainly in high-performance computing, but interest in it has grown lately due to the physical constraints preventing frequency 
+                        scaling.[2] As power consumption (and consequently heat generation) by computers has become a concern in recent years,[3] parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors.[4]
+                    </p>
+                  
+              </div>
+              
+              
+              
+              
+              <div class="paragraph">
+                  <p></p>
+              </div>
+
+          </div>
+          <div class="col-md-4">
+              <div class="sidebar">
+                  <p>Search</p>                
+              </div>
+              <br><br>
+              <input type="text" class="form-control" placeholder="Search Something"/>
+              <br><br>
+              
+              <div class="sidebar">
+                  <p>Key Tags</p>              
+              </div>
+              
+              <div style="margin: 10px 10px 45px 10px;">
+              <a class="btn btn-theme" href="#" role="button">Parallel Computing</a>
+              <a class="btn btn-theme" href="#" role="button">C++</a>
+              <a class="btn btn-theme" href="#" role="button">MPI</a>
+              <a class="btn btn-theme" href="#" role="button">SSL</a>
+              <a class="btn btn-theme" href="#" role="button">Numerical Algebra</a>
+              </div>
+              
+              <div class="sidebar">
+                  <p>Other Projects</p>              
+              </div>
+             
+              <ul type="none" class="popular-posts">
+                <li>
+                    <a href="singlepost2.html" target="_blank"><img src="images/thumb09.png" alt="Popular Post"></a>
+		    <p><a href="singlepost2.html" target="_blank">Website design project </a></p>
+		    <em>Posted on 11/21/14</em>
+		</li>
+                <li>
+		    <a href="#"><img src="images/thumb06.png" alt="Popular Post"></a>
+		    <p><a href="#">MATLAB Projects</a></p>
+		    <em>Posted on 12/10/13</em>
+		</li>
+                <li>
+		    <a href="#"><img src="images/thumb07.png" alt="Popular Post"></a>
+		    <p><a href="#">Hibernate Company/Employee data GUI administration project</a></p>
+		    <em>Posted on 09/30/14</em>
+		</li>
+                <li>
+		    <a href="#"><img src="images/thumb08.png" alt="Popular Post"></a>
+		    <p><a href="#">Web Application Project – Online Virtual e-Trade Platform</a></p>
+		    <em>Posted on 11/20/14</em>
+		</li>
+              </ul>
+
+          </div>
+      </div>
+  </div>
+     
+      
+    <div class="row" id="lowbar">
+    <div class="col-sm-4" >
+      <h3>About</h3>
+      <p>Shufan Ge parallel computing project with C++ and MPI library.</p>
+      <p></p>
+    </div>
+      
+    <div class="col-sm-4" >
+      <h3>Social Links</h3>
+      <a href="https://www.linkedin.com/pub/shufan-ge/75/179/b87" target="_blank"><img src="images/linkedin.png"/></a>
+      <a href="http://github.com/shufange" target="_blank"><img src="images/github.png" style="width: 10%; height: 10%; padding-top:4px;"/></a>
+      <a href="#"><img src="images/twitter.png" style="padding-top:3px;"/></a>
+      
+    </div>
+      
+    <div class="col-sm-4">
+      <h3>Contact</h3>
+      <p>Address: 4751 Blanco Drive, San Jose, CA, 95129, USA</p>
+      <p>Tel: (+1)917-868-5891</p>   
+          <p>E-mail:  
+              <a href="mailto:geshufan@gmail.com">geshufan@gmail.com</a>
+          </p>
+      
+    </div>
+    
+  </div>
+
+
+</body>
+</html>
