@@ -40,7 +40,7 @@ author_work_experiences:
               description: TBD
               visibility: true
             - company_name: Amazon
-              company_logo: microsoft.png
+              company_logo: amazon.png
               company_url: https://amazon.com
               designation: Software Development Engineer
               description: Payments Platform, Delivery Experience, Alexa AI, Amazon Go
