@@ -25,25 +25,25 @@ urls:
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author: Tianyang Che
+author_bio: Hi, my name is Tianyang Che.
+author_email: "tianyangche@gmail.com"
+author_location: Seattle
+author_website_url: "http://tianyangche.com"
+typewrite-text: Be a voice, not an echo.
 
 author_work_experiences:
-            - company_name: Google
+            - company_name: Facebook
               company_logo: google.png
-              company_url: https://google.com
+              company_url: https://facebook.com
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: TBD
               visibility: true
-            - company_name: Microsoft
+            - company_name: Amazon
               company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+              company_url: https://amazon.com
+              designation: Software Development Engineer
+              description: Payments Platform, Delivery Experience, Alexa AI, Amazon Go
               visibility: true
 
 author_education_details:
