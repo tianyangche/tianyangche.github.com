@@ -11,10 +11,15 @@ layout: default
 </script>
     <div class="jumbotron" style="text-align: center;">
       <img class="author-profile-img" src="/assets/img/profile.png" />
-      <p class="jumbotron-heading">Hi, I am {{site.author}} !</p>
+      <p class="jumbotron-heading">{{site.author}}</p>
+      <p class="lead" style="font-size: 1.1rem; margin-bottom: 1rem;">{{site.subtitle}}</p>
       <p class="lead" id="typewriteText"></p>
-         {%- include github_star_button.html -%}
-         {%- include github_fork_button.html -%}
+      <div style="margin-top: 2rem;">
+        <p style="font-size: 1rem; color: #666; max-width: 600px; margin: 0 auto;">
+          Building, backing, and creating things that last. Currently focused on AI-driven, human-centered products 
+          and learning modern full-stack tools.
+        </p>
+      </div>
     </div>
     <div class="col-lg-8 offset-md-2">
       <section id="recent-articles">
@@ -53,5 +58,41 @@ layout: default
           </li>
           {% endfor %}
         </ul>
+      </section>
+
+      <!-- Current Focus Section -->
+      <section id="current-focus" style="margin-top: 60px;">
+        <div class="card">
+          <h1 class="card-title">🪞 Current Focus</h1>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+            <div style="padding: 20px; background: var(--card-background-color); border-radius: 8px; border-left: 4px solid #f69801;">
+              <h3 style="color: var(--bold-color); margin-bottom: 10px;">🚀 Building</h3>
+              <p style="margin-bottom: 10px;">AI-driven, human-centered products starting with the iOS waste-sorting app</p>
+            </div>
+            <div style="padding: 20px; background: var(--card-background-color); border-radius: 8px; border-left: 4px solid #f69801;">
+              <h3 style="color: var(--bold-color); margin-bottom: 10px;">📚 Learning</h3>
+              <p style="margin-bottom: 10px;">Modern full-stack tools: Next.js / SwiftUI / Supabase / FastAPI / OpenAI API</p>
+            </div>
+            <div style="padding: 20px; background: var(--card-background-color); border-radius: 8px; border-left: 4px solid #f69801;">
+              <h3 style="color: var(--bold-color); margin-bottom: 10px;">⚡ Living</h3>
+              <p style="margin-bottom: 10px;">With deliberate energy — avoiding noise, investing deeply in what compounds</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Philosophy Section -->
+      <section id="philosophy" style="margin-top: 40px;">
+        <div class="card">
+          <h1 class="card-title">🌱 Philosophy</h1>
+          <blockquote style="font-size: 1.2rem; font-style: italic; text-align: center; margin: 20px 0; padding: 20px; background: var(--main-background-color); border-left: 4px solid #f69801;">
+            "Build systems that matter.<br>
+            Invest in what compounds.<br>
+            Create things that last."
+          </blockquote>
+          <p style="text-align: center; color: var(--medium-text-color); font-size: 0.9rem;">
+            — Tianyang Che
+          </p>
+        </div>
       </section>
     </div>
