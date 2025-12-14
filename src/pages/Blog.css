@@ -1,0 +1,25 @@
+.blog-page {
+  padding: 2rem 0;
+}
+
+.blog-hero {
+  text-align: center;
+  padding: 4rem 0 2rem;
+}
+
+.blog-hero .subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-light);
+  margin-top: 1rem;
+}
+
+.blog-posts {
+  padding: 2rem 0;
+}
+
+.blog-placeholder {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--color-text-light);
+  font-size: 1.125rem;
+}

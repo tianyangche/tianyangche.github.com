@@ -1,0 +1,93 @@
+.investor-section {
+  background-color: var(--color-bg-light);
+  padding: 5rem 0;
+}
+
+.investor-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.investments-section h3,
+.philosophy-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.investments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.investment-card {
+  text-align: center;
+}
+
+.investment-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-text);
+}
+
+.investment-type {
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.investment-description {
+  color: var(--color-text-light);
+  line-height: 1.6;
+}
+
+.philosophy-intro {
+  font-size: 1.125rem;
+  color: var(--color-text);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.quote-card {
+  padding: 2rem;
+}
+
+.quote {
+  font-size: 1.125rem;
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.quote-author {
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .investor-section {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .quotes-grid {
+    grid-template-columns: 1fr;
+  }
+}

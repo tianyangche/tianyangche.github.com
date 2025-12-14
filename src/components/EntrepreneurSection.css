@@ -1,0 +1,41 @@
+.entrepreneur-section {
+  background-color: var(--color-bg);
+  padding: 5rem 0;
+}
+
+.company-card {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.company-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.company-description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+@media (max-width: 768px) {
+  .entrepreneur-section {
+    padding: 3rem 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .company-content h3 {
+    font-size: 1.5rem;
+  }
+  
+  .company-description,
+  .company-mission {
+    font-size: 1rem;
+  }
+}

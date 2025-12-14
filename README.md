@@ -1,132 +1,105 @@
-### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
+# Tianyang Che - Personal Website
 
-[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
-![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+A modern, clean personal website built with React and Vite, showcasing my work as an Engineer, Investor, and Entrepreneur.
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
-The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
+## Technology Stack
 
-### [Installation Guide](https://devlopr.netlify.app/get-started)
+- **React 18** - Modern UI library
+- **Vite** - Fast build tool and dev server
+- **React Router** - Client-side routing
+- **Vanilla CSS** - Clean, simple styling
 
-![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
+## Getting Started
 
-devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
+### Prerequisites
 
-### Deploy your devlopr-jekyll blog - One Click Deploy
+- Node.js (v16 or higher)
+- npm or yarn
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
+### Installation
 
-### Demo (Hosted Apps)
+1. Install dependencies:
+```bash
+npm install
+```
 
-- Github Pages Demo - [here](https://sujaykundu.com)
-- Firebase Demo - [here](https://devlopr.web.app)
-- Netlify Demo - [here](https://devlopr.netlify.com)
-- Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
-- Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
-- AWS Amplify Demo - [here](https://master.d3t30wwddt6jju.amplifyapp.com/)
+2. Start the development server:
+```bash
+npm run dev
+```
 
-#### Features :
+3. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-- Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
-- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, [Siteleaf](https://sujaykundu.com/jekyll/2019/05/22/using-siteleaf/), CloudCannon.
-- Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
-- Stylesheet built using Sass
-- Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
-- SEO-optimized
-- Real Time Search using [Algolia](https://algolia.com/)
-- Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
-- Send Newsletters using [Mailchimp](https://mailchimp.com/)
-- Contact Forms using [Formspree](https://formspree.io/)
-- Coding Activity using [Wakatime](https://wakatime.com/)
-- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
-- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
+### Building for Production
 
-#### Jekyll Admin
-You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
+```bash
+npm run build
+```
 
-![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
+This will create a `dist` folder with the production-ready files.
 
-#### Search Configuration
+## Deployment to GitHub Pages
 
-Replace *_algolia_api_key* content with your algolia's app Admin API key and run to index blog posts:
+This site is configured to be deployed to GitHub Pages. You can use GitHub Actions or manually deploy:
 
-`jekyll algolia`
+### Manual Deployment
 
-For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
+1. Build the project:
+```bash
+npm run build
+```
 
-## Release Changes :
+2. Copy the contents of the `dist` folder to your repository root (or use a separate branch)
 
-You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109)
+3. Push to GitHub
 
-## Using Docker :
+### Using GitHub Actions (Recommended)
 
-Building the Image :
+Create a `.github/workflows/deploy.yml` file with GitHub Actions workflow to automate deployment.
 
-`docker build -t my-devlopr-jekyll-blog .`
+## Project Structure
 
-Running the container :
+```
+├── src/
+│   ├── components/     # React components
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── EngineerSection.jsx
+│   │   ├── InvestorSection.jsx
+│   │   └── EntrepreneurSection.jsx
+│   ├── pages/         # Page components
+│   │   ├── Home.jsx
+│   │   └── Blog.jsx
+│   ├── styles/        # Global styles
+│   │   └── index.css
+│   ├── App.jsx        # Main app component
+│   └── main.jsx       # Entry point
+├── index.html         # HTML template
+├── vite.config.js     # Vite configuration
+└── package.json       # Dependencies and scripts
+```
 
-`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch`
+## Assets
 
-## Using Docker Compose :
+Images and other static assets should be placed in the `public/assets/` folder. They will be accessible at `/assets/...` in the built site.
 
-### Development :
+The existing `assets/` folder from the previous Jekyll site contains images that are referenced in the components. You may need to copy or symlink necessary images to `public/assets/img/` for them to be included in the build, or ensure the `assets/` folder is accessible at the site root.
 
-You can run the app in development mode : (your changes will be reflected --watch moded)
+## Customization
 
-Serve the site at http://localhost:4000 :
+### Update Personal Information
 
-`docker-compose -f docker-compose-dev.yml up --build --remove-orphans`
+Edit the following files to update your information:
+- `src/components/Hero.jsx` - Hero section
+- `src/components/EngineerSection.jsx` - Work experience and education
+- `src/components/InvestorSection.jsx` - Investment information
+- `src/components/EntrepreneurSection.jsx` - Company information
 
-### Production :
+### Styling
 
-You can run the app in production mode : (your changes will be reflected --watch moded)
+Global styles are in `src/styles/index.css`. Each component has its own CSS file for component-specific styles.
 
-Serve the site at http://localhost:4000 :
+## License
 
-`docker-compose -f docker-compose-prod.yml up --build --remove-orphans`
-
-Stop the app :
-`docker-compose -f docker-compose-prod.yml down`
-Once everything is good and ready to go live -
-
-`docker-compose -f docker-compose-prod.yml up --build --detach`
-
-## Contributors:
-
-This project exists thanks to all the people who contribute.
-
-Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
-
-- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork )
-
-- 2.Create your feature branch
-`git checkout -b my-new-feature`
-
-- 3.Commit your changes
-`git commit -am 'Add some feature'`
-
-- 4.Push to the branch
-`git push origin my-new-feature`
-
-- 5.Create new Pull Request
-
-### Backers
-
-Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll#backer)
-
-<a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
-
-### For Help :
-
-You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com). If you like the project. Don't forget to :star: !
-
-## Licence
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
-
-I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a [Backer](https://opencollective.com/devlopr-jekyll#backer).
+All rights reserved © Tianyang Che

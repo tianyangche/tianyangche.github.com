@@ -1,0 +1,77 @@
+.introduction-page {
+  padding: 4rem 0;
+}
+
+.intro-hero {
+  text-align: center;
+  padding: 6rem 0 4rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-text);
+}
+
+.intro-tagline {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.intro-identities {
+  padding: 4rem 0;
+}
+
+.identity-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.identity-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.identity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.identity-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-primary);
+}
+
+.identity-card p {
+  color: var(--color-text-light);
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .intro-hero {
+    padding: 2rem 0 4rem;
+  }
+  
+  .intro-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .intro-tagline {
+    font-size: 1.25rem;
+  }
+  
+  .identity-cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--color-bg-light);
+  border-top: 1px solid var(--color-border);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  color: var(--color-text-light);
+}
+
+.footer-subtitle a {
+  color: var(--color-text-light);
+}
+
+.footer-subtitle a:hover {
+  color: var(--color-primary);
+}

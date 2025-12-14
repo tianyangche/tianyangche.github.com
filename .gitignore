@@ -8,3 +8,13 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment
+.env
+.env.local
+.env.*.local
