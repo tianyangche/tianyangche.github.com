@@ -1,73 +1,132 @@
-# Tianyang Che
+### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
 
-## 🌍 About Me
+[![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
+![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-In my professional life, I see myself as the intersection of three identities:
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
 
-### 🧱 Builder  
-With over a decade of experience at Meta, Amazon, and Coupang, I build systems, products, and teams that solve meaningful problems.  
-I love turning ideas into things that work.
+### [Installation Guide](https://devlopr.netlify.app/get-started)
 
-### 💹 Investor  
-I invest in companies—both private and public—that create real value and have the potential to compound over decades.
+![devlopr jekyll](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/screenshot.PNG?raw=true)
 
-### 🚀 Entrepreneur  
-I’m driven to make the world slightly better through what I build—by creating things people find genuinely useful.
+devlopr uses Markdown Files to create data like Blog Posts, Gallery, Shop Products etc. No external database is required.
 
-> These three identities form the same mission:  
-> **To spend my life building, backing, and creating things that last.**
+### Deploy your devlopr-jekyll blog - One Click Deploy
 
----
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/sujaykundu777/devlopr-jekyll)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sujaykundu777/devlopr-jekyll)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sujaykundu777/devlopr-jekyll)
 
-## 🧭 Recent Reflection (2025-10-28)
+### Demo (Hosted Apps)
 
-Today I interviewed a young engineer—ten years younger than me—who built a fully functional iOS app on his own.  
-In him, I saw the version of myself I once wanted to become.  
-It sparked both admiration and an awakening:  
-the realization that the world has shifted, and that I want to reclaim the creative energy I once had.
+- Github Pages Demo - [here](https://sujaykundu.com)
+- Firebase Demo - [here](https://devlopr.web.app)
+- Netlify Demo - [here](https://devlopr.netlify.com)
+- Zeit Now Demo - [here](https://devlopr-jekyll.now.sh)
+- Heroku Demo - [here](https://devlopr-jekyll.herokuapp.com)
+- AWS Amplify Demo - [here](https://master.d3t30wwddt6jju.amplifyapp.com/)
 
-For the past decade, I’ve focused on architecture, leadership, and systems—learning how to make things stable, scalable, and organized.  
-But now, I feel an urge to **build again**.  
-To make things that are mine.  
-To live as a builder, not just an operator.
+#### Features :
 
-At the same time, I’ve made another quiet but firm decision:  
-**I will no longer waste my energy on meaningless people or trivial politics.**  
-Looking back, perhaps 50–60% of my time in the past 36 years was lost to that.  
-From now on, I’ll spend my energy only on **creation, learning, and compounding value**.
+- Local CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+- Onine CMS Admin Support using [Netlify CMS](https://sujaykundu.com/jekyll/2020/05/24/how-to-setup-netlify-cms-with-github-hosted-devlopr-blog/#/), Forestry, [Siteleaf](https://sujaykundu.com/jekyll/2019/05/22/using-siteleaf/), CloudCannon.
+- Supports Latest [Jekyll 4.x](https://jekyllrb.com) and [Bundler](https://bundler.io)
+- Stylesheet built using Sass
+- Comments using [Hyvor](https://talk.hyvor.com/) and [Disqus](https://disqus.com/)
+- SEO-optimized
+- Real Time Search using [Algolia](https://algolia.com/)
+- Sell Stuff (Ecommerce) in your Blog using [Snipcart](https://snipcart.com/)
+- Send Newsletters using [Mailchimp](https://mailchimp.com/)
+- Contact Forms using [Formspree](https://formspree.io/)
+- Coding Activity using [Wakatime](https://wakatime.com/)
+- Hosting Support for [Github Pages](https://pages.github.com), [Netlify](https://netlify.com), [Zeit](https://zeit.co), [Heroku](https://heroku.com), [AWS Amplify](aws.amplify.com), [Firebase](https://firebase.com)
+- CI/CD Support using [Travis CI](https://sujaykundu.com/blog/posts/deploy-jekyll-blog-using-github-pages-and-travis-ci/), Buddy , Circle CI
 
-> “Past waste is tuition; future focus is return.”  
-> — Tianyang
+#### Jekyll Admin
+You can easily manage the site locally using the Jekyll admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
----
+![Jekyll Admin](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/assets/img/jekyll-admin.PNG?raw=true)
 
-## 🕰️ Time Reconciliation Letter
+#### Search Configuration
 
-### ✉️ To my 25-year-old self  
-Thank you for working so hard to survive, to learn, and to be seen.  
-You didn’t choose wrong—you built the foundation I now stand on.  
-The systems you studied, the patience you learned, the compromises you made—  
-they are what allow me today to finally **build freely**.
+Replace *_algolia_api_key* content with your algolia's app Admin API key and run to index blog posts:
 
-### ✉️ To my 45-year-old self  
-I’ve started.  
-I’m building my own products, my own systems, my own company, my own world.  
-This is not compensation; this is **returning** to who I was meant to be.  
-Whatever happens, remember this moment:  
-the day I stopped waiting for permission to create.
+`jekyll algolia`
 
----
+For more info : [Docs here](https://sujaykundu.com/jekyll/2020/06/18/how-to-add-realtime-search-to-your-devlopr-jekyll-blog-using-jekyll-algolia/)
 
-## 🪞 My Current Focus
+## Release Changes :
 
-- Building AI-driven, human-centered products (starting with the iOS waste-sorting app).  
-- Learning modern full-stack tools: **Next.js / SwiftUI / Supabase / FastAPI / OpenAI API**.  
-- Living with deliberate energy — avoiding noise, investing deeply in what compounds.
+You can check out the latest changes [here](https://www.buymeacoffee.com/p/57109)
 
----
+## Using Docker :
 
-## 🌱 Motto
+Building the Image :
 
-> **Build systems that matter.**  
-> **Invest in what compounds.**  
-> **Create things that last.**
+`docker build -t my-devlopr-jekyll-blog .`
+
+Running the container :
+
+`docker run -d -p 4000:4000 -it --volume="$PWD:/srv/jekyll" --name "my_blog" my-devlopr-jekyll-blog:latest jekyll serve --watch`
+
+## Using Docker Compose :
+
+### Development :
+
+You can run the app in development mode : (your changes will be reflected --watch moded)
+
+Serve the site at http://localhost:4000 :
+
+`docker-compose -f docker-compose-dev.yml up --build --remove-orphans`
+
+### Production :
+
+You can run the app in production mode : (your changes will be reflected --watch moded)
+
+Serve the site at http://localhost:4000 :
+
+`docker-compose -f docker-compose-prod.yml up --build --remove-orphans`
+
+Stop the app :
+`docker-compose -f docker-compose-prod.yml down`
+Once everything is good and ready to go live -
+
+`docker-compose -f docker-compose-prod.yml up --build --detach`
+
+## Contributors:
+
+This project exists thanks to all the people who contribute.
+
+Contributions are more than just welcome. Fork this repo and create a new branch, then submit a pull request
+
+- 1.Fork it [http://github.com/sujaykundu777/devlopr-jekyll/fork](http://github.com/sujaykundu777/devlopr-jekyll/fork )
+
+- 2.Create your feature branch
+`git checkout -b my-new-feature`
+
+- 3.Commit your changes
+`git commit -am 'Add some feature'`
+
+- 4.Push to the branch
+`git push origin my-new-feature`
+
+- 5.Create new Pull Request
+
+### Backers
+
+Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll#backer)
+
+<a href="https://opencollective.com/devlopr-jekyll#backers" target="_blank"><img src="https://opencollective.com/devlopr-jekyll/backers.svg?width=890" /></a>
+
+### For Help :
+
+You can contact me, if you need any help via [Email](mailto:sujaykundu777@gmail.com). If you like the project. Don't forget to :star: !
+
+## Licence
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT). You can do anything you want, including projects for your clients, as long as you mention an attribution back (credit links in footer). See the [Licence](https://github.com/sujaykundu777/devlopr-jekyll/blob/master/LICENSE) file
+
+I understand that sometimes footer links or any links to external websites are not convenient, so you have the option to remove credits/footer links by becoming a [Backer](https://opencollective.com/devlopr-jekyll#backer).

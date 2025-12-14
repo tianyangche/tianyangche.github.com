@@ -1,7 +1,7 @@
 title: Tianyang Che
-subtitle: Builder • Investor • Entrepreneur
+subtitle: My Personal Blog
 description: >- # this means to ignore newlines until "baseurl:"
-  Building, backing, and creating things that last. AI-driven products, modern tech stack, and deliberate energy.
+  Tianyang's Personal Blog
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -20,30 +20,24 @@ urls:
 
 author_logo: profile.png
 author: Tianyang Che
-author_bio: I'm the intersection of three identities: Builder, Investor, and Entrepreneur. With over a decade at Meta, Amazon, and Coupang, I build systems, products, and teams that solve meaningful problems. I invest in companies that create real value and have the potential to compound over decades. I'm driven to make the world slightly better through what I build—by creating things people find genuinely useful.
+author_bio: Hi, my name is Tianyang Che.
 author_email: "tianyangche@gmail.com"
 author_location: Seattle
 author_website_url: "http://tianyangche.com"
-typewrite-text: Build systems that matter. Invest in what compounds. Create things that last.
+typewrite-text: Be a voice, not an echo.
 
 author_work_experiences:
-            - company_name: Meta
+            - company_name: Facebook
               company_logo: facebook.png
-              company_url: https://meta.com
+              company_url: https://facebook.com
               designation: Software Engineer
-              description: Building scalable systems and products that connect people globally
+              description: TBD
               visibility: true
             - company_name: Amazon
               company_logo: amazon.png
               company_url: https://amazon.com
               designation: Software Development Engineer
               description: Payments Platform, Delivery Experience, Alexa AI, Amazon Go
-              visibility: true
-            - company_name: Coupang
-              company_logo: amazon.png
-              company_url: https://coupang.com
-              designation: Software Engineer
-              description: E-commerce platform engineering and system architecture
               visibility: true
 
 author_education_details:
@@ -63,27 +57,27 @@ author_education_details:
 
 author_project_details:
               - project_thumbnail: gamershub.png
-                project_title: iOS Waste-Sorting App
-                project_description: AI-driven mobile application for intelligent waste categorization and environmental impact tracking
-                project_url: https://github.com/tianyangche
+                project_title: Gamers Hub
+                project_description: A Platform built for Gamers and Game Devs
+                project_url: https://gamershub.in
                 visibility: true
               - project_thumbnail: hack4r.PNG
-                project_title: AI Product Suite
-                project_description: Next.js / SwiftUI / Supabase / FastAPI / OpenAI API stack for modern AI applications
-                project_url: https://github.com/tianyangche
+                project_title: Hack4r
+                project_description: A Platform built for Hackers and Penetration Testers
+                project_url: https://hack4r.com
                 visibility: true
 
 # social links
-twitter_username: tianyangche
-github_username: tianyangche
-facebook_username: 
-linkedin_username: tianyangche
-behance_username: 
-instagram_username: 
-medium_username: 
-telegram_username: 
-dribbble_username: 
-flickr_username:
+twitter_username: johndoe
+github_username:  sujaykundu777
+facebook_username: johndoe
+linkedin_username: johndoe
+behance_username: johndoe
+instagram_username: johndoe
+medium_username: johndoe
+telegram_username: johndoe
+dribbble_username: johndoe
+flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
