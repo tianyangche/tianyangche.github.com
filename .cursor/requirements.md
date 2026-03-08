@@ -20,6 +20,7 @@ Currently, the repo is a little bit messy, and it hasn't been really updated in 
         - amazon
         - coupang
         - auger
+    - don't include education
 - blog
 - contact me
 
