@@ -20,6 +20,14 @@
   margin-bottom: 1rem;
 }
 
+.past-investments-heading {
+  margin-top: 1.4rem;
+}
+
+.investment-card.past {
+  opacity: 0.65;
+}
+
 .investments-grid,
 .quotes-grid {
   display: grid;

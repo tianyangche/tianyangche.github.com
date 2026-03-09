@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(brew install:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(brew list:*)",
+      "Bash(/opt/homebrew/Cellar/poppler/26.03.0/bin/pdftotext:*)"
+    ]
+  }
+}
