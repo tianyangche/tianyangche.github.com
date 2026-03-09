@@ -1,16 +1,33 @@
 import './InvestorSection.css'
 
 function InvestorSection() {
-  const investments = [
+  const currentInvestments = [
     {
-      name: 'Anthropic',
-      description: 'AI safety and research company.',
-      type: 'Private Investor',
+      name: 'World Labs',
+      description: 'Spatial intelligence company building world models. Invested via an SPV.',
+      type: 'Investor · via SPV',
+      period: 'Feb 2026 – Present',
     },
     {
-      name: 'W by Jake Paul',
-      description: 'Consumer brand and media company.',
-      type: 'Private Investor',
+      name: 'W',
+      description: 'Smell good. Feel ready. Every damn day. Invested via an SPV.',
+      type: 'Investor · via SPV',
+      period: 'Apr 2024 – Present',
+    },
+    {
+      name: 'UpHonest Capital',
+      description: 'Helping UpHonest Capital find promising startups.',
+      type: 'Venture Scout',
+      period: 'Sep 2023 – Present',
+    },
+  ]
+
+  const pastInvestments = [
+    {
+      name: 'Anthropic',
+      description: 'A cat cares about his fellow cats, so he studies Meowlogy. I care about my fellow humans, so I invested in Anthropic. Invested via an SPV. Exited.',
+      type: 'Investor · via SPV · Exited',
+      period: 'Mar 2024 – Sep 2025',
     },
   ]
 
@@ -36,12 +53,23 @@ function InvestorSection() {
 
         <div className="investor-content reveal">
           <div className="investments-section">
-            <h3>Current Investments</h3>
+            <h3>Current</h3>
             <div className="investments-grid">
-              {investments.map((investment, idx) => (
+              {currentInvestments.map((investment, idx) => (
                 <article key={idx} className="investment-card surface">
                   <h4>{investment.name}</h4>
-                  <p className="investment-type">{investment.type}</p>
+                  <p className="investment-type">{investment.type} · {investment.period}</p>
+                  <p className="investment-description">{investment.description}</p>
+                </article>
+              ))}
+            </div>
+
+            <h3 className="past-investments-heading">Past</h3>
+            <div className="investments-grid">
+              {pastInvestments.map((investment, idx) => (
+                <article key={idx} className="investment-card surface past">
+                  <h4>{investment.name}</h4>
+                  <p className="investment-type">{investment.type} · {investment.period}</p>
                   <p className="investment-description">{investment.description}</p>
                 </article>
               ))}
@@ -50,7 +78,7 @@ function InvestorSection() {
 
           <div className="philosophy-section">
             <h3>Investment Philosophy</h3>
-            <p className="philosophy-intro">Rooted in business quality, margin of safety, and long-term compounding.</p>
+            <p className="philosophy-intro">Rooted in business quality, margin of safety, and long-term compounding. A smart person invests in people who are much smarter than him.</p>
             <div className="quotes-grid">
               {inspirations.map((inspiration, idx) => (
                 <article key={idx} className="quote-card surface">

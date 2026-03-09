@@ -3,8 +3,8 @@ import './Introduction.css'
 const identities = [
   {
     title: 'Engineer',
-    summary: 'Building scalable systems and practical products that ship with quality.',
-    badge: 'Systems + Product',
+    summary: 'Architecting large-scale distributed systems and LLM-powered AI products across Big Tech and startups.',
+    badge: 'Systems + AI',
   },
   {
     title: 'Investor',
@@ -25,9 +25,9 @@ function Introduction() {
         <section className="intro-hero reveal">
           <span className="section-label">Personal HQ</span>
           <h1>Tianyang Che</h1>
-          <p className="intro-tagline">Engineer, investor, and entrepreneur focused on useful progress.</p>
+          <p className="intro-tagline">Large-Scale System Architect · Platform/Product Builder · AI & Distributed Systems</p>
           <p className="intro-description">
-            I build robust technology, support ambitious teams, and launch ideas designed for long-term impact.
+            10+ years shipping high-impact software at Meta, Amazon, Coupang, and Auger. I architect distributed systems, build LLM-powered products, and invest with a long-term lens.
           </p>
 
           <div className="intro-actions">
