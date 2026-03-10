@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run dev:http",
+    "dev:http": "vite --mode http --port 5173 --strictPort",
+    "dev:https": "vite --mode https --port 5174 --strictPort",
     "build": "vite build",
     "preview": "vite preview"
   },

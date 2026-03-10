@@ -30,6 +30,20 @@ npm run dev
 
 3. Open [http://localhost:5173](http://localhost:5173) in your browser
 
+### Run HTTP and HTTPS locally
+
+- HTTP (port 5173):
+```bash
+npm run dev:http
+```
+
+- HTTPS (port 5174):
+```bash
+npm run dev:https
+```
+
+You can run both commands in separate terminals to test both protocols side-by-side.
+
 ### Building for Production
 
 ```bash
