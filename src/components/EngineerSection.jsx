@@ -3,6 +3,16 @@ import './EngineerSection.css'
 function EngineerSection() {
   const experiences = [
     {
+      company: 'NVIDIA',
+      role: 'AI Engineer',
+      period: 'Present',
+      description: 'Building applied AI systems and intelligent product experiences.',
+      details: [
+        'Designing and developing AI-powered solutions for real-world workflows',
+      ],
+      logo: '/assets/img/nvidia.png',
+    },
+    {
       company: 'Auger, Inc.',
       role: 'Senior Software Engineer',
       period: 'May 2025 – Present',
@@ -74,7 +84,7 @@ function EngineerSection() {
         <div className="page-intro reveal">
           <span className="section-label">Career</span>
           <h2>Engineer</h2>
-          <p>10+ years architecting large-scale distributed systems and shipping AI-powered products at Meta, Amazon, Coupang, and Auger.</p>
+          <p>10+ years architecting large-scale distributed systems and shipping AI-powered products at NVIDIA, Meta, Amazon, Coupang, and Auger.</p>
         </div>
 
         <div className="experience-list reveal">
