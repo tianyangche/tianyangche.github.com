@@ -2,9 +2,9 @@ import { NavLink } from 'react-router-dom'
 import './Header.css'
 
 const links = [
-  { to: '/', label: 'Introduction' },
+  { to: '/', label: 'About' },
   { to: '/career', label: 'Career' },
-  { to: '/blog', label: 'Blog' },
+  { to: '/blog', label: 'Writing' },
   { to: '/contact', label: 'Contact' },
 ]
 

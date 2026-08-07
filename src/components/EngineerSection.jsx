@@ -82,8 +82,8 @@ function EngineerSection() {
     <section className="engineer-section" id="engineer">
       <div className="container">
         <div className="page-intro reveal">
-          <span className="section-label">Career</span>
-          <h2>Engineer</h2>
+          <span className="section-label">Selected experience</span>
+          <h1>Career</h1>
           <p>10+ years architecting large-scale distributed systems and shipping AI-powered products at NVIDIA, Meta, Amazon, Coupang, and Auger.</p>
         </div>
 
